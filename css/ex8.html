@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Box Model Example</title>
+
+    <style>
+
+        .eventCard{
+            border: 2px solid black;
+            padding: 20px;
+            margin: 25px;
+            background-color: #eef;
+        }
+
+        input:focus{
+            outline: 3px solid orange;
+        }
+
+        .hiddenBox{
+            visibility: hidden;
+        }
+
+        .removedBox{
+            display: none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="eventCard">
+        <h2>Community Meetup</h2>
+        <p>This section uses margin, padding and border.</p>
+    </div>
+
+    <input type="text" placeholder="Click here">
+
+    <div class="hiddenBox">
+        Hidden but space exists
+    </div>
+
+    <div class="removedBox">
+        Completely removed
+    </div>
+
+</body>
+</html>
