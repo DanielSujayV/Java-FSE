@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debugging Example</title>
+</head>
+
+<body>
+
+<h2 id="title">Debugging Practice</h2>
+
+<button onclick="changeText()">
+    Click Here
+</button>
+
+<script>
+
+let count = 0;
+
+function changeText(){
+
+    count++;
+
+    console.log("Button clicked " + count + " times");
+
+    document.getElementById("title").innerHTML =
+    "Button clicked!";
+}
+
+</script>
+
+</body>
+</html>
